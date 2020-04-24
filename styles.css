@@ -1,0 +1,315 @@
+@media only screen and (max-width: 450px) {
+
+  body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .master-box {
+    display: grid;
+    justify-content: center;
+    margin: auto auto 70px;
+  }
+
+  .box-icon {
+    float:right;
+    margin: auto 10px 10px auto;
+    height: 35px;
+  }
+
+  /*.karma-icon {
+    margin: 15px 10px 15px auto;
+  }*/
+
+  .first-line {
+  font-weight: 200;
+  color: #a3a3a5;
+  }
+
+  h1 {
+    color: #4c4a60;
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    color: #4c4a60;
+    font-size: 1rem;
+  }
+
+  h3 {
+    color: #4c4a60;
+  }
+
+  p {
+    color: #a3a3a5;
+    margin-bottom: 20px;
+  }
+
+  .reliable {
+    line-height: 0.9;
+    text-align: center;
+    width: 270px;
+    margin: 90px auto;
+  }
+
+  .reliable-p {
+    font-size: 0.9rem;
+    line-height: 1.3;
+
+  }
+
+  .box {
+  border-radius: 2%;
+  border-style: solid;
+  border-width: 5px 0 0;
+
+  -webkit-box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+  -moz-box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+  box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+
+  font-size: 0.8rem;
+  padding: 10px 15px 20px;
+  margin: 0 5% 20px;
+  width: auto;
+  height: 160px;
+  }
+
+  .team-builder {
+    border-color: #ea5551;
+  }
+
+  .supervisor {
+    border-color: #40d5d3;
+  }
+
+  .karma {
+    border-color: #fcae4a;
+  }
+
+  .calculator {
+    border-color: #559cec;
+  }
+}
+
+/*-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 451px) {
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.master-box {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 2fr);
+
+  margin: 0 17px 70px;
+}
+
+.box-icon {
+  float:right;
+  margin: 20px 10px 15px auto;
+  height: 50px;
+}
+
+.first-line {
+font-weight: 200;
+color: #a3a3a5;
+}
+
+h1 {
+  color: #4c4a60;
+}
+
+h2 {
+  color: #4c4a60;
+}
+
+h3 {
+  color: #4c4a60;
+}
+
+p {
+  color: #a3a3a5;
+  margin-bottom: 20px;
+}
+
+.reliable {
+  line-height: 0.9;
+  text-align: center;
+  width: 75%;
+  margin: 40px auto;
+}
+
+.reliable-p {
+  font-size: 0.9rem;
+  line-height: 1.3;
+
+}
+
+.box {
+border-radius: 2%;
+border-style: solid;
+border-width: 5px 0 0;
+-webkit-box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+-moz-box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+font-size: 0.8rem;
+padding: 10px 15px 20px;
+margin: 0 10px 20px;
+width: auto;
+
+}
+
+.team-builder {
+  border-color: #ea5551;
+
+
+}
+
+.supervisor {
+  border-color: #40d5d3;
+
+}
+
+.karma {
+  border-color: #fcae4a;
+
+
+}
+
+.calculator {
+  border-color: #559cec;
+}
+}
+
+/*-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.master-box {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(4, 137.5px);
+  margin: 0 17px 70px;
+
+
+}
+
+.box-icon {
+  float:right;
+  margin: 20px 10px 15px auto;
+  height: 50px;
+}
+
+.first-line {
+font-weight: 200;
+color: #a3a3a5;
+}
+
+h1 {
+  color: #4c4a60;
+}
+
+h2 {
+  color: #4c4a60;
+}
+
+h3 {
+  color: #4c4a60;
+}
+
+p {
+  color: #a3a3a5;
+  margin-bottom: 20px;
+}
+
+.reliable {
+  line-height: 0.9;
+  text-align: center;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.reliable-p {
+  font-size: 0.9rem;
+  line-height: 1.3;
+
+}
+
+.box {
+border-radius: 2%;
+border-style: solid;
+border-width: 5px 0 0;
+-webkit-box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+-moz-box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+box-shadow: -1px 10px 20px 0px rgba(159,164,167,1);
+font-size: 0.8rem;
+padding: 10px 10px 20px 15px;
+margin: 0 10px 20px;
+width: auto;
+height: 190px;
+}
+
+.team-builder {
+  border-color: #ea5551;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.supervisor {
+  border-color: #40d5d3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.karma {
+  border-color: #fcae4a;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+
+}
+
+.calculator {
+  border-color: #559cec;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+}
+
+/*-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1050px) {
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.master-box {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(4, 137.5px);
+  margin: 0 17px;
+}
+}
